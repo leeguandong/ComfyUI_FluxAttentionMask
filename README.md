@@ -1,2 +1,23 @@
-# ComfyUI_FlluxAttentionMask
-flux和sd3中的t5部分的attention mask，就是利用text侧attention mask，在图像生成时使模型更加关注文本的嵌入，从而增强文本的语义跟随。
+# ComfyUI nodes to use AttentionMask
+
+https://github.com/huggingface/diffusers/pull/10044
+
+![image]()
+
+## Install
+
+- 推荐使用管理器 ComfyUI Manager 安装（On the Way）
+
+- 手动安装：
+    1. `cd custom_nodes`
+    2. `git clone https://github.com/leeguandong/ComfyUI_AttentionMask.git`
+    3. 重启 ComfyUI
+
+## Stars
+
+[![Star History Chart](https://api.star-history.com/svg?repos=leeguandong/ComfyUI_FluxCustomId&type=Date)](https://star-history.com/#leeguandong/ComfyUI_FluxCustomId&Date)
+
+
+
+
+
