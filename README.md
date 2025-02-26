@@ -1,0 +1,2 @@
+# ComfyUI_FlluxAttentionMask
+flux和sd3中的t5部分的attention mask，就是利用text侧attention mask，在图像生成时使模型更加关注文本的嵌入，从而增强文本的语义跟随。
