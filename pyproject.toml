@@ -1,0 +1,14 @@
+[project]
+name = "fluxattentionmask"
+description = "The attention mask in the T5 part of flux and SD3 utilizes the text-side attention mask to make the model focus more on text embeddings during image generation, thereby enhancing semantic alignment with the text."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/leeguandong/ComfyUI_FluxAttentionMask"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_FluxAttentionMask"
+Icon = ""
