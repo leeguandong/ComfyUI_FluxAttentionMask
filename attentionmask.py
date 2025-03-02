@@ -3,8 +3,6 @@ import numpy as np
 from PIL import Image
 from diffusers import FluxPipeline, StableDiffusion3Pipeline
 
-from app.ComfyUI_FluxCustomId import NODE_DISPLAY_NAME_MAPPINGS
-
 
 def tensor2pil(image):
     return Image.fromarray(np.clip(255. * image.cpu().numpy().squeeze(), 0, 255).astype(np.uint8))
