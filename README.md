@@ -2,7 +2,7 @@
 
 https://github.com/huggingface/diffusers/pull/10044
 
-![image]()
+![image](workflow.png)
 
 ## Install
 
